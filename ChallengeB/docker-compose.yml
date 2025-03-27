@@ -1,0 +1,11 @@
+﻿version: "3.9"   
+services:
+  mohanlogs:
+    image: challengeb:dev   
+    container_name: challengeb   
+    volumes:
+      - //c/output:/app/data/output
+    stdin_open: true  
+    tty: true   
+    working_dir: /app  
+    command: /bin/bash  
