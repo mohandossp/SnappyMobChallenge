@@ -1,1 +1,1 @@
-#SnappyMobChallenge
+SnappyMobChallenge
